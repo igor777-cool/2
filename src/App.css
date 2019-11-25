@@ -1,0 +1,72 @@
+.AppStart{
+}
+.App {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, sandybrown, blueviolet);
+    min-height: 100vh;
+}
+
+.main {
+    min-width: 220px;
+    border: 2px solid powderblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-radius: 40px;
+
+}
+.mainSetting{
+    margin: 5%;
+}
+.MainSet{
+    display: flex;
+    align-items: center;
+}
+.MainSet input{
+    width: 100px;
+    height: 30px;
+    margin-left: 5px;
+}
+.main h1 {
+    font-size: 3em;
+    text-align: center;
+}
+button {
+    display: inline-block;
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    color: rgb(205, 216, 228);
+    text-shadow: 0 -1px rgb(46, 53, 58);
+    text-decoration: none;
+    user-select: none;
+    line-height: 2em;
+    padding: 1px 1.2em;
+    outline: none;
+    border: 1px solid rgba(33, 43, 52, 1);
+    border-radius: 3px;
+    background: rgb(81, 92, 102) linear-gradient(rgb(81, 92, 102), rgb(69, 78, 87));
+    box-shadow: inset 0 1px rgba(101, 114, 126, 1),
+    inset 0 0 1px rgba(140, 150, 170, .8),
+    0 1px rgb(83, 94, 104),
+    0 0 1px rgb(86, 96, 106);
+
+}
+button:active{
+  color: red;
+}
+.button{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.Five {
+    color: darkblue;
+}
+.error{
+    background-color: red;
+}
